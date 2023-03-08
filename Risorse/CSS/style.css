@@ -14,7 +14,7 @@
 .flexwrap { flex-wrap: wrap; }
 
 /* POSITION & TRANSITION HELPERS */
-.secTrans { transition: 0.5s; }
+.secTrans { transition: 0.6s; }
 .posFixed { position: fixed; }
 .posRelative { position: relative; }
 .posAbsolute { position: absolute; }
@@ -86,13 +86,13 @@ main {
     left: 0;
 } 
 
-div.posRelative > small:nth-child(2) {
+div.posRelative > small:nth-child(3) {
     background-color: red;
     padding: 1% 2%;
     bottom: 2rem;
 }
 
-div.posRelative > small:nth-child(3) {
+div.posRelative > small:nth-child(4) {
     background-color: green;
     padding: 1% 2%;
     bottom: 2rem;
@@ -104,6 +104,17 @@ div.posRelative > span:last-child {
     padding: 3% 3%;
     top: 0.5rem;
     right: 0;
+}
+
+main button {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    padding: 1% 5%;
+    font-size: 1rem;
+    border: 1px solid #FF6900;
+    background-color: #FF6900;
+    visibility: hidden;
 }
 
 #bgGreen {
@@ -120,6 +131,15 @@ div.posRelative.cursor:hover img:last-child {
     top: 0;
     left: 0;
 }
+
+main button:hover {
+    background-color: #ff6a00ad;
+}
+
+div.posRelative.cursor:hover button {
+    visibility: visible;
+}
+
 
 /* FOOTER STYLE */
 footer {
