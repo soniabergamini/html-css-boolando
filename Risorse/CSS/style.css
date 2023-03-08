@@ -50,6 +50,10 @@ header section > * {
     padding: 1%;
 }
 
+a {
+    text-decoration: none;
+}
+
 #bannerlogo > img { 
     width: 20%; 
 }
@@ -57,7 +61,6 @@ header section > * {
 #bannerlogo { 
     width: 60%; 
 }
-
 /* MAIN STYLE */
 
 main {
@@ -114,4 +117,22 @@ div.posRelative > span:last-child {
     position: absolute;
     top: 0;
     left: 0;
+}
+
+/* FOOTER STYLE */
+
+footer {
+    background-color: #1A1A1A;
+}
+
+footer > section {
+    min-height: 5rem;
+}
+
+h5 {
+    margin-bottom: 0.5rem;
+}
+
+footer a {
+    margin-right: 0.3rem;
 }
