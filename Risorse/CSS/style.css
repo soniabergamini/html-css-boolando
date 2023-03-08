@@ -94,11 +94,15 @@ div.posRelative > small:nth-child(3) {
     left: 3rem;
 }
 
-div.posRelative > span:nth-child(4) {
+div.posRelative > span:last-child {
     background-color: white;
     padding: 3% 3%;
     top: 0.5rem;
     right: 0;
+}
+
+#bgGreen {
+    background-color: green;
 }
 
 /* MAIN ELEMENTS, HOVER STYLE */
@@ -106,7 +110,7 @@ div.posRelative > span:nth-child(4) {
     position: static;
 }
 
-#productRow>div:hover img:last-child {
+#productRow > div:hover img:last-child {
     position: absolute;
     top: 0;
     left: 0;
