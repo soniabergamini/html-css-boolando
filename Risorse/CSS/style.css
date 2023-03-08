@@ -5,3 +5,47 @@
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
+
+/* FLEX CONTAINERS HELPERS */
+.flex { display: flex; }
+.spaceBtw { justify-content: space-between; }
+.alignCtr { align-items: center; }
+.justyCtr { justify-content: center; }
+.fontBigHov:hover {font-size: larger;}
+
+/* UTILITY | centratura */
+.box {
+    max-width: 69.4rem; /* 1110px su 1536px */
+    margin: 0 auto;
+}
+
+/* GENERIC UTILITIES | border; padding-box; txtcolor; cursor; txtcenter */
+.txtWhite { color: white; }
+.cursor { cursor: pointer; }
+.vw100 { width: 100vw; }
+.txtAlignCtr { text-align: center; }
+
+/* UTILITY | hover text */
+.txtHover:hover {
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+/* HEADER STYLE */
+header {
+    background-color: #FF6900;
+    position: fixed;
+    box-shadow: 0px 4px 5px 0px #9d9d9dae;
+}
+
+header section > * {
+    padding: 1%;
+}
+
+#bannerlogo > img { 
+    width: 20%; 
+}
+
+#bannerlogo { 
+    width: 60%; 
+}
