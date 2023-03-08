@@ -111,11 +111,11 @@ div.posRelative > span:last-child {
 }
 
 /* MAIN ELEMENTS, HOVER STYLE */
-#productRow > div:hover img:first-child {
+div.posRelative.cursor:hover img:first-child{
     position: static;
 }
 
-#productRow > div:hover img:last-child {
+div.posRelative.cursor:hover img:last-child {
     position: absolute;
     top: 0;
     left: 0;
