@@ -1,4 +1,4 @@
-/* GENERAL STYLE */
+/******** GENERAL STYLE ********/
 * {
     box-sizing: border-box;
     padding: 0;
@@ -40,7 +40,7 @@
     text-transform: uppercase;
 }
 
-/* HEADER STYLE */
+/******** HEADER STYLE ********/
 header {
     background-color: #FF6900;
     box-shadow: 0px 4px 5px 0px #9d9d9dae;
@@ -64,7 +64,7 @@ a {
     width: 60%; 
 }
 
-/* MAIN STYLE */
+/******** MAIN STYLE ********/
 main {
     margin: 6rem 0;
 }
@@ -74,13 +74,13 @@ main {
 }
 
 #productRow > div {
-    min-width: calc(100% / 3);
+    min-width: calc(100% / 3); /* CE: possiamo aggiungere il - 50px togliendo min*/
     margin-bottom: 3rem;
     padding: 0 5px;
 }
 
 .productImg {
-    max-height: 32.4rem;
+    max-height: 32.4rem; /* CE: possiamo togliere l'altezza fissa e dare width 100% */
     display: block;
     top: 0;
     left: 0;
@@ -141,7 +141,7 @@ div.posRelative.cursor:hover button {
 }
 
 
-/* FOOTER STYLE */
+/******** FOOTER STYLE ********/
 footer {
     background-color: #1A1A1A;
     bottom: 0;
